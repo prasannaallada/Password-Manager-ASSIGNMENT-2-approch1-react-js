@@ -1,0 +1,45 @@
+.user-list-item {
+  border: 1px solid #c3caea;
+  background-color: transparent;
+  border-radius: 5px;
+  padding: 10px;
+  list-style-type: none;
+  margin-left: 10px;
+  width: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.profile {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+  text-align: center;
+  color: white;
+  background-color: #10b981;
+  padding-top: 2px;
+}
+
+.text {
+  font-size: 15px;
+  font-size: bold;
+  text-align: center;
+  color: white;
+}
+
+.delete {
+  width: 22px;
+}
+.delete-btn {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.stars {
+  color: #c3caea;
+  font-size: 12px;
+  width: 100px;
+}

@@ -1,45 +1,85 @@
-.user-list-item {
-  border: 1px solid #c3caea;
-  background-color: transparent;
-  border-radius: 5px;
-  padding: 10px;
-  list-style-type: none;
-  margin-left: 10px;
-  width: 300px;
+.item-list {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 10px;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 200px;
+  height: 80px;
+  background-color: transparent;
+  border-style: solid;
+  border-color: #9ba9eb;
+  border-width: 1px;
+  border-radius: 2px;
+  padding: 10px;
+  margin-right: 18px;
+  margin-bottom: 18px;
+}
+
+.initial {
+  font-size: 16px;
+  color: white;
+  background-color: green;
+  width: 35px;
+  border-radius: 25px;
+  text-align: center;
+  padding: 8px;
   margin-right: 10px;
 }
-.profile {
-  height: 50px;
-  width: 50px;
-  border-radius: 50px;
-  text-align: center;
-  color: white;
-  background-color: #10b981;
-  padding-top: 2px;
+
+.list-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  color: #f8fafc;
+  height: 100%;
 }
 
-.text {
-  font-size: 15px;
-  font-size: bold;
-  text-align: center;
-  color: white;
-}
-
-.delete {
-  width: 22px;
-}
-.delete-btn {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-}
-
-.stars {
-  color: #c3caea;
+.website {
   font-size: 12px;
-  width: 100px;
+  margin: 2px;
+}
+
+.stars-image {
+  width: 80px;
+  height: 10px;
+  margin-top: 8px;
+  margin-left: 2px;
+}
+
+.del-btn {
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+  border-style: none;
+  outline: none;
+  margin-left: auto;
+}
+
+.del-image {
+  width: 20px;
+  height: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .sub-div1 {
+    flex-wrap: wrap;
+    justify-content: center;
+    height: auto;
+  }
+  .sub-div1-image1 {
+    display: none;
+  }
+  .sub-div1-image2 {
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 18px;
+  }
+  .sub-div2 {
+    min-height: 50vh;
+  }
+  .result-container {
+    justify-content: center;
+  }
 }
